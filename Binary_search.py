@@ -8,6 +8,6 @@ class Solution:
                 r = m - 1
             elif nums[m] < target:
                 l = m + 1
-            else:
+            else:                                                 #Editing this file 
                 return m 
         return -1
