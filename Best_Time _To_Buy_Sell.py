@@ -1,4 +1,4 @@
-class Solution:
+class Solution:         #We are using 2 pointers
     def maxProfit(self, prices: List[int]) -> int:
         l, r = 0, 1  # Left = Buy.    Right = Sell\
         maxp = 0
