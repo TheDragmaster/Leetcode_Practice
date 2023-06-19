@@ -1,4 +1,4 @@
-# We use binary search to check the left most, middle and right most values and figure out where the target is at by eliminating the values we know for a fact arent our target or near our target
+# We use binary search to check the left most, middle and right most values and figure out where the target is at by eliminating the values we know for a fact arent our target or near our target,  use O(logn) ?
 
 
 class Solution:
