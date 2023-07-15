@@ -5,9 +5,9 @@ class Solution:
                 return 0
             if n == 0:
                 return 1
-
+#Basically divide the input by the exponent 
             res = helper(x, n // 2)
-            res = res * res
+            res = res * res        #Multiply the input by the exponent
             return x * res if n % 2 else res
 
         res = helper(x, abs(n))
