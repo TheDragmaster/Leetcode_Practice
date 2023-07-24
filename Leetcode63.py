@@ -1,3 +1,5 @@
+#We are using dynamic programning to get to the solution on this program 
+
 class Solution:
     def uniquePathsWithObstacles(self, grid: List[List[int]]) -> int:
         M, N = len(grid), len(grid[0])
