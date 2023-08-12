@@ -1,4 +1,4 @@
-class Solution:
+class Solution:                            #We are using dynamic programming to solve with very little code
     def rob(self, nums: List[int]) -> int:
 
         return max(nums[0], self.helper(nums[1:]), self.helper(nums[:-1]))       #Skip the first houst and last house 
